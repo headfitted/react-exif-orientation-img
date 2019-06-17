@@ -19,8 +19,7 @@
   ],
   "main": "./lib/index.js",
   "dependencies": {
-    "exif-js": "^2.2.1",
-    "exif2css": "^1.2.0"
+    "exif-js": "^2.2.1"
   },
   "peerDependencies": {
     "react": ">=15.0.0 <17.0.0",

@@ -1,7 +1,7 @@
 /* @flow */
 import React, { Component } from 'react';
 import EXIF from 'exif-js';
-import exif2css from 'exif2css';
+import exif2css from './exif2css.js';
 
 const snakeToCamelCaseKeys = (obj: Object): Object =>
   Object.keys(obj)

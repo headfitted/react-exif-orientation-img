@@ -1523,10 +1523,6 @@ exif-js@^2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/exif-js/-/exif-js-2.2.1.tgz#68589104759cafff97c396fafae4b428e87d2159"
 
-exif2css@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/exif2css/-/exif2css-1.2.0.tgz#8438e116921508e3dcc30cbe2407b1d5535e1b45"
-
 expand-brackets@^0.1.4:
   version "0.1.5"
   resolved "https://registry.yarnpkg.com/expand-brackets/-/expand-brackets-0.1.5.tgz#df07284e342a807cd733ac5af72411e581d1177b"
