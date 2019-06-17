@@ -45,6 +45,7 @@ class ExifOrientationImg extends Component {
     const {
       src,
       alt,
+      hide,
       style = {},
       onLoad,
       ...imgProps,
@@ -62,7 +63,7 @@ class ExifOrientationImg extends Component {
           ...(
             orientation ?
               snakeToCamelCaseKeys(exif2css(orientation)) :
-              {}
+              {visibility: hide ? 'hidden' : 'visible'}
           ),
           ...style,
         }}

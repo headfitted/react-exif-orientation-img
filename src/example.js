@@ -12,6 +12,7 @@ const Example = () => (
         key={'l' + orientation}
         src={`https://raw.githubusercontent.com/recurser/exif-orientation-examples/master/Landscape_${orientation}.jpg`}
         alt={`Landscape ${orientation}`}
+        hide
       />
     )}
     {orientations.map(orientation => 
@@ -19,6 +20,7 @@ const Example = () => (
         key={'p' + orientation}
         src={`https://raw.githubusercontent.com/recurser/exif-orientation-examples/master/Portrait_${orientation}.jpg`}
         alt={`Portrait ${orientation}`}
+        hide
       />
     )}
   </div>
