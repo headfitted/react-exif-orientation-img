@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/index.js"],"names":[],"mappings":";;;;;;AACA","file":"index.js","sourcesContent":["/* @flow */\r\nimport ExifOrientationImg from './ExifOrientationImg';\r\n\r\nexport default ExifOrientationImg;\r\n"]}

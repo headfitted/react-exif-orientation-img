@@ -17,7 +17,7 @@
   "contributors": [
     "Robin Ricard"
   ],
-  "main": "./src/index.js",
+  "main": "./lib/index.js",
   "dependencies": {
     "exif-js": "^2.2.1"
   },
